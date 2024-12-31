@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'MarriageFont';
+    src: url('fonts/Handodle-rg38A.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00654d;
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1080px;
+    height: 100vh;
+}
+
+.tree {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 10%;
+    left: 0;
+}
+
+.title-container {
+    position: absolute;
+    height: 90px;
+    bottom: 30%;
+    right: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    font-family: 'MarriageFont', sans-serif;
+}
+.title-container span {
+    width: 100%;
+}
+.text-bank {
+    margin-left: 10px;
+    text-align: left;
+}

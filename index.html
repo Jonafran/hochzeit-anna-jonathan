@@ -4,16 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anna & Jonathan - 07.03.25</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
 </head>
 <body>
-<div class="container">
-    <img class="tree" src="assets/sample_tree.svg" alt="sample tree">
-    <h1 class="title-container">
-        <span>Du bist</span>
-        <span>meine</span>
-        <span class="text-bank">Bank</span>
-    </h1>
-</div>
+    <div class="container">
+        <img class="tree" src="assets/JA_Baum_Web.png" alt="sample tree">
+        <div class="accordion-container">
+            <h1>Die Basics</h1>
+            <button class="accordion">Wann findet die Hochzeit statt?</button>
+            <div class="panel">
+                <p>Am 07.03.2025 um 11:40 Uhr.</p>
+            </div>
+            <button class="accordion">Wo findet die Trauung statt?</button>
+            <div class="panel">
+                <p>Im historischen Sitzungssaal (Raum 204, 2. Stock) des Fürther Rathauses, Königstraße 88, 90762 Fürth. Aufzüge sind vorhanden.</p>
+            </div>
+            <button class="accordion">Wie ist der Ablauf des Tages?</button>
+            <div class="panel">
+                <ul>
+                    <li>11:40 – 12:00 Uhr: Standesamtliche Trauung</li>
+                    <li>12:30 – 12:50 Uhr: Begrüßung in der Weinstube Schilderwach</li>
+                    <li>13:00 – 17:00 Uhr: Mittagessen & Kaffeetrinken</li>
+                    <li>Ab 17:00 Uhr: Ende des offiziellen Teils – wer mag, kann den Tag in der Fürther Altstadt ausklingen lassen (vielleicht auch ohne uns).</li>
+                </ul>
+            </div>
+
+            <h1>Trauung im Rathaus</h1>
+            <button class="accordion">Gibt es etwas zu beachten?</button>
+            <div class="panel">
+                <ul>
+                    <li>Bilder mit der Standesbeamtin dürfen nicht auf Social Media veröffentlicht werden.</li>
+                    <li>Das Werfen von Reis, Konfetti, etc. ist nicht gestattet.</li>
+                    <li>Es gibt keine Parkplätze direkt am Rathaus. Bitte nutzt umliegende Parkhäuser oder andere Parkmöglichkeiten.</li>
+                </ul>
+            </div>
+            <button class="accordion">Wann sollte ich im Standesamt sein?</button>
+            <div class="panel">
+                <p>Bitte seid spätestens 10 Minuten vor Beginn der Trauung vor Ort.</p>
+            </div>
+            <button class="accordion">Wo können wir euch nach der Trauung gratulieren?</button>
+            <div class="panel">
+                <p>Im Innenhof des Rathauses nehmen wir gerne eure Glückwünsche entgegen.</p>
+            </div>
+
+            <h1>Feier in der Weinstube Schilderwach</h1>
+            <button class="accordion">Wo findet die Feier statt?</button>
+            <div class="panel">
+                <p>Weinstube Schilderwach, Bäumenstraße 19, 90762 Fürth – nur 4 Minuten Fußweg vom Rathaus entfernt.</p>
+            </div>
+            <button class="accordion">Gibt es Regeln für die Location?</button>
+            <div class="panel">
+                <ul>
+                    <li>Das Werfen von Reis, Konfetti, etc. ist auch hier nicht gestattet.</li>
+                    <li>Feuerspeier oder ähnliche Aktionen sind nicht erlaubt.</li>
+                </ul>
+            </div>
+            <button class="accordion">Was gibt es zu essen?</button>
+            <div class="panel">
+                <p>Es ist für alle gesorgt – es gibt vegetarische, vegane und allergikerfreundliche Optionen.</p>
+            </div>
+            <button class="accordion">Darf ich Kuchen oder andere Speisen mitbringen?</button>
+            <div class="panel">
+                <p>Bitte nicht – wir kümmern uns um alles, was das Essen betrifft.</p>
+            </div>
+
+            <h1>Geschenke & Glückwünsche</h1>
+            <button class="accordion">Was wünschen wir uns?</button>
+            <div class="panel">
+                <p>Wir haben alles, was wir brauchen. Falls ihr uns trotzdem eine Freude machen wollt, freuen wir uns über einen kleinen Beitrag zu unserer Urlaubskasse.</p>
+            </div>
+            <button class="accordion">Wo soll ich Geschenke oder Glückwunschkarten abgeben?</button>
+            <div class="panel">
+                <p>Bitte bringt Geschenke direkt in die Weinstube Schilderwach mit und nicht ins Standesamt. Dort wird auch eine Box für Geldgeschenke und Glückwunschkarten bereitstehen.</p>
+            </div>
+
+            <h1>Dresscode & Stimmung</h1>
+            <button class="accordion">Gibt es einen Dresscode?</button>
+            <div class="panel">
+                <p>Nein! Kommt so, wie ihr euch wohlfühlt. Kein Drama, kein Dresscode – einfach eine gute Zeit mit euch allen.</p>
+            </div>
+
+            <h1>Kontakt & Rückfragen</h1>
+            <button class="accordion">Wer hilft bei Fragen rund um die Hochzeit?</button>
+            <div class="panel">
+                <ul>
+                    <li>Svenja: 01511 7283345</li>
+                    <li>Jessi: 01573 5732305</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="logic.js"></script>
 </body>
 </html>
